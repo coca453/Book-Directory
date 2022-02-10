@@ -5,9 +5,10 @@ const { getDirectory, postDirectory, deleteDirectory, putDirectory } = require("
 const router = Router();
 
 
-router.get("/", getDirectory);
-router.post("/", postDirectory);
-router.delete("/", deleteDirectory);
-router.put("/", putDirectory);
+    router.get("/", getDirectory);
+    router.post("/", postDirectory);
+    router.delete("/", deleteDirectory);
+    router.put("/", putDirectory);
+
 
 module.exports = router;
