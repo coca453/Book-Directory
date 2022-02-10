@@ -1,0 +1,19 @@
+{
+  "name": "book-directory",
+  "version": "1.0.0",
+  "description": "The most basic project you can create using Node.js and Express.js or Nest.js is a simple REST API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coca453/Book-Directory.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coca453/Book-Directory/issues"
+  },
+  "homepage": "https://github.com/coca453/Book-Directory#readme"
+}
