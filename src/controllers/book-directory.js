@@ -1,5 +1,4 @@
 const { response } = require("express");
-const usuario = require("../../../../gaston-api/src/models/usuario");
 const Usuario = require("../models/book-directory");
 
 
@@ -61,9 +60,11 @@ const putDirectory = async (req, res = response) => {
     const body = req.body
     console.log(body._id);
     try {
-        const usuario = await Usuario.findByIdAndUpdate(body._id, 
-                                                        {nombre : body.nombre, 
-                                                         apellido : body.apellido}, { new: true });
+        const usuario = await Usuario.findByIdAndUpdate(body._id,
+            {
+                nombre: body.nombre,
+                apellido: body.apellido
+            }, { new: true });
         res.status(200).json({
             ok: true,
             msg: "Todo bien",
