@@ -18,6 +18,9 @@ dbConnection();
 //ROUTER
 app.use('/api/book-Directory', require('./routes/book-directory'))
 
+app.get('/', function (req, res) {
+    res.send('hello world')
+  })
 
 
 
