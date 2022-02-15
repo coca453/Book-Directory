@@ -6,7 +6,7 @@ const bookDirectorySchema = Schema({
     nombre: {
         type: String
     },
-    Apellido: {
+    apellido: {
         type: String
     }
 })

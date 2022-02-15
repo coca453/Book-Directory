@@ -5,9 +5,9 @@ const { getDirectory, postDirectory, deleteDirectory, putDirectory } = require("
 const router = Router();
 
 
-    router.get("/", getDirectory);
+    router.get("/:id", getDirectory);
     router.post("/", postDirectory);
-    router.delete("/", deleteDirectory);
+    router.delete("/:id", deleteDirectory);
     router.put("/", putDirectory);
 
 
